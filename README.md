@@ -68,7 +68,8 @@ You can simply run it on your video with command:
   After that you can get output video with animations (detection, tracking results) and csv-file with all information about objects in every frame.
   
  ### 2. Metrics counting
- I wrote **custom** Precision, Recall and F1Score calculation for tracking task. It compares bboxes positions and their ids.
+ I wrote **custom** Precision, Recall and F1Score calculation for tracking task. It compares bboxes positions and their ids. Please use it with labels from CVAT dataset exporting (see the structure)  
+   
  You can simply run it on your labeled video or frames with command:
   ```sh
   python metrics_counting.py --labels_dir=LABELS_DIR_PATH --width=1280 \
@@ -95,7 +96,7 @@ Example. My LABELS_DIR_PATH is `test_files`:
 </div>
 
 
-Labels: Yolo (from CVAT exporting)  
+Labels: Yolo  
 (directory with txt files corresponding to frames, format of example.txt:  
 ```
 0 0.265682 0.430208 0.057479 0.279509  
