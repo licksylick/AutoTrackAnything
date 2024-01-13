@@ -30,13 +30,13 @@ On my task (person tracking) it works better that other approaches: MOT, ByteTra
 -----
 
 ## ✅ 1. Preparing
-### 1. Install all necessary libs:
+### Install all necessary libs:
   ```sh
   pip3 install -r requirements.txt
   ```
 Note: if you are using a GPU, then you need to install torch with CUDA with the GPU-enabled version.
 Otherwise, the processor will be used.
-### 2. Download models:
+### Download models:
 ```sh
 python download_models.py
 ```
@@ -57,7 +57,7 @@ if you want to change keypoints used to evaluate visibility, you can fix it in  
 -----
 
 ## 🚀 3. Run
-### 1. Tracking
+### Tracking
 You can simply run it on your video with command:
   ```sh
   python tracking.py --video_path=INPUT_VIDEO_PATH.mp4 --width=1280 \
@@ -67,7 +67,7 @@ You can simply run it on your video with command:
   You can also set `frames_to_propagate`: num of frames, which you want to process.
   After that you can get output video with animations (detection, tracking results) and csv-file with all information about objects in every frame.
   
- ### 2. Metrics counting
+ ### Metrics counting
  I wrote **custom** Precision, Recall and F1Score calculation for tracking task. It compares bboxes positions and their ids.  
 ⚠️ Please use it with labels from CVAT dataset exporting (the structure is described below)  
    
@@ -107,7 +107,7 @@ Labels: Yolo
 ```
 
 -----
-## 4. Use project for your custom tasks
+## 🎯 4. Use project for your custom tasks
 It's simply to change [`pose-estimation.py`](https://github.com/licksylick/AutoTrackAnything/blob/7999d2e18e7015c13274fe0155a1ef3d4d6fcae2/pose_estimation.py#L9C13-L9C13) and use different detection model (or your custom trained model):
 1. Change model loading
 2. In `get_filtered_bboxes_by_confidence` method return list with bboxes from your model
