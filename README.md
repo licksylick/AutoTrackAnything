@@ -20,7 +20,7 @@
 
 ## ⚠️ Some necessary information
 It's multipurpose tracking approach using Yolov8, SAM, xMem and my wrapper and algorithms.  
-In this case it's uses for person detection, but you can simply change task (see [point 4](https://github.com/licksylick/AutoTrackAnything#4-use-project-for-your-custom-tasks)).  
+In this case it's uses for person detection, but you can simply change task (see [point 4](https://github.com/licksylick/AutoTrackAnything?tab=readme-ov-file#-4-use-project-for-your-custom-tasks)).  
 And I use keypoints confidence for adding good visible persons (you can remove it later).
    
   
