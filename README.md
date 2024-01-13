@@ -68,7 +68,8 @@ You can simply run it on your video with command:
   After that you can get output video with animations (detection, tracking results) and csv-file with all information about objects in every frame.
   
  ### 2. Metrics counting
- I wrote **custom** Precision, Recall and F1Score calculation for tracking task. It compares bboxes positions and their ids. Please use it with labels from CVAT dataset exporting (see the structure)  
+ I wrote **custom** Precision, Recall and F1Score calculation for tracking task. It compares bboxes positions and their ids.  
+⚠️ Please use it with labels from CVAT dataset exporting (the structure is described below)  
    
  You can simply run it on your labeled video or frames with command:
   ```sh
