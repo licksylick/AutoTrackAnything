@@ -3,8 +3,8 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NLLtHFcoPH-vncLH_pAwGI4wpH5PhGol?usp=sharing)
 
 <div style="display: flex; align-items: center; justify-content: space-around;">
-  <img src="media/RES_OUT_OF_FRAME.gif" height="300">
-  <img src="media/FILTERED_OCCLUSIONS.gif" height="300">
+  <img src="media/RES_OUT_OF_FRAME.gif" height="200">
+  <img src="media/FILTERED_OCCLUSIONS.gif" height="200">
 </div>
   
 -----
