@@ -117,7 +117,7 @@ It's simply to change [`pose-estimation.py`](https://github.com/licksylick/AutoT
 Please star and cite this repo if you find project useful!  
 
 ```
-@software{yolov8_ultralytics,
+@software{AutoTrackAnything,
   author = {Roman Lyskov},
   title = {AutoTrackAnything},
   year = {2024},
