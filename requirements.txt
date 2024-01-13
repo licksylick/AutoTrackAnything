@@ -1,10 +1,9 @@
-opencv-python>=4.1.1
-Pillow>=7.1.2
-pandas==1.4.3
-scikit-image==0.19.3
-torch==1.7.0
-torchvision==0.8.1
-mobile-sam @ git+https://github.com/ChaoningZhang/MobileSAM.git@01ea8d0f5590082f0c1ceb0a3e2272593f20154b
-timm==0.9.12
 mega.py
+mobile-sam @ git+https://github.com/ChaoningZhang/MobileSAM.git
 numpy==1.23.1
+opencv-python>=4.1.1
+pandas==1.4.3
+Pillow>=7.1.2
+scikit-image==0.19.3
+timm==0.9.12
+ultralytics
