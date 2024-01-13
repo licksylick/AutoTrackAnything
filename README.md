@@ -24,7 +24,7 @@ In this case it's uses for person detection, but you can simply change task (see
 And I use keypoints confidence for adding good visible persons (you can remove it later).
    
   
-It's not a super-approach, so maybe you wiil need to set hyperparameters or train models for your task. But it's very useful and easy to start project, that you can use for multiple object tracking.  
+It's not a super-approach, so maybe you will need to set hyperparameters or train models for your task. But it's very useful and easy to start project, that you can use for multiple object tracking.  
 On my task (person tracking) it works better that other approaches: MOT, ByteTrack, DeepSort, Kalman FIlter etc.
 
 -----
