@@ -38,7 +38,7 @@ Note: if you are using a GPU, then you need to install torch with CUDA with the 
 Otherwise, the processor will be used.
 ### Download models:
 ```sh
-python download_models.py
+python3 download_models.py
 ```
 
 -----
