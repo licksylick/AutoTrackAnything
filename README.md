@@ -60,7 +60,7 @@ if you want to change keypoints used to evaluate visibility, you can fix it in  
 ### Tracking
 You can simply run it on your video with command:
   ```sh
-  python tracking.py --video_path=INPUT_VIDEO_PATH.mp4 --width=1280 \
+  python3 tracking.py --video_path=INPUT_VIDEO_PATH.mp4 --width=1280 \
 --height=768 --frames_to_propagate=600 --output_video_path=RESULT_VIDEO_PATH.mp4 --device=0 \
 --person_conf=0.6 --kpts_conf=0.4 --iou_thresh=0.15 --yolo_every=2 --output_path=OUTPUT_CSV_PATH.csv
   ```
@@ -73,7 +73,7 @@ You can simply run it on your video with command:
    
  You can simply run it on your labeled video or frames with command:
   ```sh
-  python metrics_counting.py --labels_dir=LABELS_DIR_PATH --width=1280 \
+  python3 metrics_counting.py --labels_dir=LABELS_DIR_PATH --width=1280 \
 --height=768  --device=0 --person_conf=0.6 --kpts_conf=0.4\
  --iou_thresh=0.15 --print_every=10
   ```
