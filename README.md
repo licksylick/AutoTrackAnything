@@ -108,7 +108,7 @@ Labels: Yolo
 
 -----
 ## 🎯 4. Use project for your custom tasks
-It's simply to change [`pose-estimation.py`](https://github.com/licksylick/AutoTrackAnything/blob/53d85446b110eaea189def1d30f95593e07a555b/pose_estimation.py#L9) and use different detection model (or your custom trained model):
+It's simply to change [`pose-estimation.py`](https://github.com/licksylick/AutoTrackAnything/blob/53d85446b110eaea189def1d30f95593e07a555b/pose_estimation.py#L9) and use different detection models (or your custom trained model):
 1. Change model loading
 2. In `get_filtered_bboxes_by_confidence` method return list with bboxes from your model
 3. Enjoy 😊
